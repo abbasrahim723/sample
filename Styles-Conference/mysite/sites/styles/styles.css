@@ -1,0 +1,50 @@
+p{
+	color : red;
+	border : 1px solid green;
+	background-color: yellow;
+	border-color : green;
+	width:   500px;
+}
+h1{
+
+	color: green;
+	padding-top:0px;
+
+
+}
+body{
+	margin-top:20px;
+	margin-left:80px;
+	margin-right:40px;
+	margin-bottom:50px;
+	border-left: dashed;
+	text-shadow: 200px;
+	
+}
+ul {
+
+	color: green;
+}
+h3{
+	color: darkred;
+}
+figcaption{
+
+	color: blue;
+	font-style: italic;
+	font-size: 20px;
+
+}
+img{
+		width:50%;
+		height: 80%;
+		//border-style: solid;
+		border-color: red;
+		display:inline block;
+		background-image: url('C:\xampp\htdocs\mysite\sites\images\quid1.jpg')
+						  url('C:\xampp\htdocs\mysite\sites\images\quid4.jpg')
+}
+body{
+	
+	padding: 20px 20px 20px 20px;
+}

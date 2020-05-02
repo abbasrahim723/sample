@@ -1,0 +1,37 @@
+p{
+	color: blue;
+	width: 500px;
+	border-color: red;
+	background-color: lightblue;
+	border-radius: 10px;
+	opacity: transparent;
+	padding: 2px;
+}
+h1{
+color: red;
+font-size: 100px;
+
+
+}
+ul{
+	font-size: 30px;
+	font-style: bold;
+	text-align: left;
+	color: green;
+}
+html{
+	margin-top: 20px;
+	margin-left: inherit;
+	font-size: 20px;
+	font-style: italic;
+
+}
+body{
+	margin-top: auto;
+
+	border: 5px solid green;
+	
+	border-radius: 10px
+	
+
+}

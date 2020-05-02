@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+		ul{
+			background-color: #334466;
+			list-style-type: none;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 20px;
+			text-decoration: none;
+		}
+		li a:hover{
+				background-color: #443355
+		}
+
+
+	</style>
+	<title>Survey Form</title>
+</head>
+<body>
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#News">News</a></li>
+		<li><a href="#Update">Update</a></li>
+		<li><a href="#About">About</a></li>
+		<li><a href="#Contact">Contact</a></li>
+	</ul>
+<h1>Please fill the form correctly</h1>
+<form>
+	Name  : <br>
+	<input type="text" name="Name" required=""> <br>
+	Email : <br>
+	<input type="text" name="Email" required=""> <br>
+	Age   : <br>
+	<input type="number" name="Age"> <br>
+<label>Let us know your current Field : </label><br>
+	<select id="Field">
+		<option value="Student"> Student</option>
+		<option value="Professional">Professional</option>
+		<option value="Labour">Labour</option>
+
+	</select><br>
+<label> How are you satisfied with our services : </label><br>
+		<input type="radio" id="abc" name="satisfied" value="100%">
+		<label for="satisfied">100%</label><br>
+		<input type="radio" id="abc" name="satisfied" value="80%">
+		<label for="satisfied">80%</label><br>
+		<input type="radio" id="abc" name="satisfied" value="50%">
+		<label for="satisfied">50%</label><br>
+		<address>
+			<a href="www.google.com">visit us</a><br>
+			Cell no # 03xxxxxxxxxxx
+		</address>
+
+</form>
+</body>
+</html>

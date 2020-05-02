@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		
+	p::first-line{
+		color: green;
+	}
+	p::first-letter{
+		color: red;
+		font-size: xx-large;
+	}
+	p.asd::first-letter{
+		color: green;
+		font-size: x-large;
+	}
+	h1::before{
+		content: url(quid3.jpg);
+		width: 100px;
+		height: 100px;
+	}
+	::selection{
+		color: red;
+		background-color: yellow;
+	}
+	img{
+		opacity: 0.3;
+		position: center;
+	}
+	img:hover{
+		opacity: 1.0;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+		background-color: #dddddd;
+		
+	}
+	li{
+		float: left;
+		border-right: 1px solid #bbb;
+	}
+	li a{
+		display: block;
+		color: #000;
+		padding: 8px ;
+		text-decoration: none;
+		background-color: #dddddd;
+	}
+	li a:hover{
+		color: white;
+		background-color: #555;
+	}
+	li a:active{
+		background-color: green;
+	}
+	li .btn2{
+		display: block;
+		color: #000;
+		padding: 9.5px ;
+		text-decoration: none;
+		background-color: #dddddd;
+		border:none;
+	}
+	li .btn2:hover{
+			color: white;
+		background-color: #555;
+	}
+	.btn{
+		background-color: green;
+		font-size: 20px;
+
+	}
+	.btn1{
+		background-color: green;
+		font-size: 20px;
+		float: right;
+	}
+	.drp{
+		position: relative;
+		display: inline-block;
+
+	}
+	.content{
+			display: none;
+			position: absolute;
+			min-width: 60px;
+	}
+	.drp:hover .content{
+		display: block;
+	}
+	.btn2{
+		width: 60px;
+	}
+	</style>
+	<title>Testing Video</title>
+</head>
+<body>
+	<ul>
+		<li><a href="#home">Home</a> </li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#log-in-form">Log In</a></li>
+		<li> <div class="drp"> <button class="btn2">Links</button> <div class="content">
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+		 </div></li></div>
+	</ul>
+	<a href="log-in-form.html" alt="soryy"> Welcome</a>
+	<img src="images/quid3.jpg">
+	<div>
+		<h1 class="as">Welcome</h1>
+		<p class="asd">
+			You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.This is my first page 
+		</p>
+	</div>
+	<div>
+		<footer>
+			<button class="btn">Prevoius</button>
+			<button class="btn1">Next</button>
+		</footer>
+	</div>
+</body>
+</html>

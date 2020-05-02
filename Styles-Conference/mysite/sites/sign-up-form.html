@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up Form</title>
+	<style type="text/css">
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333333;	
+		}
+		li{
+			float: right;
+			border:none;
+		}
+		li a{
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color: #225533;
+		}
+		body{
+			background-image: url("images/flag7.jpg" );
+			background-attachment:scroll;
+			background-repeat: no-repeat;
+			width: auto;
+			height: auto;
+			
+		}
+		form{
+			margin-top: 20px;
+			width: 500px; 
+			border-style: double;
+			
+
+
+		}
+		div{
+			background-image: url("images/gif.jpg");
+			font-size:30px;
+		}
+		input{
+			width: 300px;
+			height: 30px;
+			border:solid;
+			border-radius: 10px;
+			background-color: transparent;
+		}
+		select{
+			width: 300px;
+			height: 30px;
+			border:solid;
+			border-radius: 10px;
+			background-color: transparent;
+			
+		}
+	</style>
+</head>
+<body>
+<ul>
+		<li><a href="log-in-form.html" alt="log-in-form"> Log In</a></li>
+		<li><a href="sign-up-form.html"> Sign Up</a></li>
+		<li><a href="tribute2.html" alt="Home Page"> Home</a></li>
+		<li style="margin-right: 700px; font-size: 40px; color: white">Pakistan's Tribute <img src="images/flag3.jpg" style="width: 20px; height: 25px;"></li>
+		<li></li>
+	</ul>
+
+	<h1 align="center">Sign Up Form</h1>
+	<div align="center" ><form align="center" style="background-color: transparent; border-radius: 20px;">
+		<label>First Name</label><br>
+		<input type="text" name="fname" required><br>
+		<label>Last Name</label><br>
+		<input type="text" name="lname" required><br>
+		<label >DOB</label><br>
+		<input type="date" name="age" required><br>
+		<label>Email</label><br>
+		<input type="Email" name="Email" required><br>
+		<label>Gender</label><br>
+		<input type="radio" name="Gender" value="Male" style="size: 10px">
+		<label>Male</label>
+		<input type="radio" name="Gender" value="Female">
+		<label>Female</label>
+		<input type="radio" name="Gender" value="Others">
+		<label>Others</label><br>
+		<label>Cell No</label><br>
+		<input type="tel" name="Cell" placeholder="0311-1111111" pattern="[[0-9]{3}-[0-9]{2}-[0-9]{3}" ><br>
+		<label>Addres</label><br>
+		<input type="text" name="Addres" width="40"><br>
+		<label>Qulifiaction</label><br>
+		<select name="Qulifiaction" >
+			<option>Master</option>
+			<option>Bachelor</option>
+			<option>Secondary</option>
+			<option>Matrick</option>
+			<option>Middle</option>
+			<option selected>None</option>
+		</select><br>
+		<label>Languages</label><br>
+		<input type="checkbox" name="English" value="English">
+		<label>English</label>
+		<input type="checkbox" name="Urdu" value="Urdu">
+		<label>Urdu</label>
+		<input type="checkbox" name="Arabic" value="Arabic">
+		<label>Arabic</label>
+
+	</form></div>
+</body>
+</html>
